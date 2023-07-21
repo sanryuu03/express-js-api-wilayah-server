@@ -1,5 +1,17 @@
 # Release Notes
 
+## v1.0.3 (2023-07-21)
+
+- npm install --save sequelize
+- npm install --save mysql2
+- get provinces
+- get filtered regency
+- get filtered district
+- get filtered village
+- get regency
+- get district
+- get village
+
 ## v1.0.2 (2023-07-21)
 
 - controller
@@ -11,6 +23,7 @@
 - npm i -D esbuild
 - npm i -D ts-node-dev
 - npm i -D typescript
+- npm i -D @typescript-eslint/parser
 - npm i -D @typescript-eslint/eslint-plugin
 - npx tsc --init
 

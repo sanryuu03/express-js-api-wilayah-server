@@ -1,7 +1,7 @@
-import { Router } from "express";
-import { getUser } from "./controller";
+import { Router } from 'express'
+import { getUser } from './controller'
 
-const routes =  Router()
+const routes = Router()
 
 routes.get('/', getUser)
 
