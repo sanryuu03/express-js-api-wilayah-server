@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.5 (2023-07-21)
+
+- informasi setting nama database
+
 ## v1.0.4 (2023-07-21)
 
 - penggunaan
