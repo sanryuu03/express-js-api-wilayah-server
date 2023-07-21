@@ -1,10 +1,15 @@
 # Release Notes
 
+## v1.0.4 (2023-07-21)
+
+- penggunaan
+
 ## v1.0.3 (2023-07-21)
 
 - npm install --save sequelize
 - npm install --save mysql2
 - get provinces
+- get filtered provinces
 - get filtered regency
 - get filtered district
 - get filtered village
