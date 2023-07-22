@@ -7,6 +7,7 @@ build({
   bundle: true,
   sourcemap: true,
   platform: 'node',
+  external: ['pg-hstore'],
   outfile: './build/index.js',
 }).catch(() => {
   process.exit(1)

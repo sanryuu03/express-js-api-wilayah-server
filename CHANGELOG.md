@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.0.6 (2023-07-22)
+
+- Could not resolve "pg-hstore" => error ketika build => external: ['pg-hstore'] => solved
+- https://stackoverflow.com/questions/73903039/typescript-serverless-esbuild-exclude-full-node-modules-doesnt-seem-to-wo
+
 ## v1.0.5 (2023-07-21)
 
 - informasi setting nama database
