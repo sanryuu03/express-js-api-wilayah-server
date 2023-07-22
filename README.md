@@ -113,10 +113,18 @@ This is a [express.js](https://expressjs.com/) with [`typescript`](https://www.t
 
 ## Penting
 
-- nama database bisa kalian sesuaikan pada folder config/db.ts
+- nama database bisa kalian sesuaikan pada folder config/db.ts atau file ".env"
+- versi sequelize akan selalu di update
 
 ## Informasi
 
 - API ini saya buat menggunakan express.js + typescript + sequelize (v6) + MySQL
 - database aslinya hanya 1 file yaitu "wilayah.sql", saya split untuk mempermudah query
 - database bisa kalian lihat pada folder "backupDB"
+
+## Donasi
+
+- untuk donasi ke pak cahya (source db wilayah.sql) bisa menuju link ini https://github.com/cahyadsn/wilayah
+
+- jika kalian suka dengan projek saya dan ingin support saya, bisa donasi via transfer
+  - Jago/Jago Syariah bank digital 5055-6459-9169

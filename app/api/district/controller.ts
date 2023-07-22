@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import { districtSchema as district } from './model'
-import { getErrorMessage } from 'utils/ErrorHandling'
+import { getErrorMessage } from '../../../utils/ErrorHandling'
 
 export const getData = async (req: Request, res: Response) => {
   try {

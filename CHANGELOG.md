@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.7 (2023-07-22)
+
+- config/db.ts => environment variables
+
 ## v1.0.6 (2023-07-22)
 
 - Could not resolve "pg-hstore" => error ketika build => external: ['pg-hstore'] => solved
