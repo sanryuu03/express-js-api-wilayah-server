@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.9 (2023-07-27)
+
+- APP_PRODUCTION_PORT
 
 ## v1.0.8 (2023-07-22)
 

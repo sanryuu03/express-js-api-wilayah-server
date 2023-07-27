@@ -11,7 +11,8 @@ import villageRouter from './app/api/village/router'
 dotenv.config()
 
 const app: Express = express()
-const port = process.env.PORT ?? '3000'
+const env = process.env.NODE_ENV
+const port = env === 'production' ? process.env.APP_PRODUCTION_PORT : process.env.APP_DEV_PORT
 
 app.use(express.json())
 app.use(cors())
