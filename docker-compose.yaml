@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  mysql_db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wilayah_development
+    ports:
+      - 3306:3306
+    restart: always
+
+  express-js-api-wilayah-server:
+    depends_on:
+      - mysql_db
+    container_name: 'express-js-api-wilayah-server'
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    image: "express-js-api-wilayah-server:1.0.0"
+    environment:
+      - "NODE_ENV=development"
+    ports:
+      - protocol: tcp
+        published: 3500
+        target: 3398
+    volumes:
+      - .:/app/
+      - /app/node_modules
+    command: npm run dev
